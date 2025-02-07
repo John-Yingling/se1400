@@ -1,16 +1,13 @@
 @font-face {
-    font-family: 'futura-light';
+    font-family: 'skyrimfont';
     src: url("milestone2/fonts/Futura-Condensed-Light.ttf");
-}
-@font-face {
-    font-family: 'futura-medium';
     src: url("fonts/Futura Condensed Medium/Futura Condensed Medium.otf");
 }
 body {
     background-image: url('websiteimages/skyrimback.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'futura-light';
+    font-family: 'skyrimfont';
     color: #FFFFFF;
 }
 main {
