@@ -4,45 +4,50 @@
     grid-auto-rows: minmax(0px, auto);
 }
 
+body {
+    margin: 0;
+}
+
 #homehero {
     background-color: rgba(240, 98, 98, 0.75);
     height: 540px;
     flex-shrink: 0;
-    grid-column: 2 / 8;
+    grid-column: 1 / 9;
     grid-row: 1 / 2;
+    margin: 0;
 }
 
 nav {
     background-color: rgba(177, 78, 194, 0.75);
     height: 65px;
-    grid-column: 2 / 8;
+    grid-column: 1 / 9;
     grid-row: 2 / 3;
 }
 
 #navline {
     background-color: rgba(253, 224, 120, 0.75);
     height: 10px;
-    grid-column: 2 / 8;
+    grid-column: 1 / 9;
     grid-row: 3 / 4;
 } 
 
 main {
     background-color: rgba(162, 226, 146, 0.75);
     height: 900px;
-    grid-column: 3 / 7;
+    grid-column: 2 / 8;
     grid-row: 4 / 5;
 }
 
 #footline {
     background-color: rgba(253, 224, 120, 0.75);
     height: 10px;
-    grid-column: 2 / 8;
+    grid-column: 1 / 9;
     grid-row: 5 / 6;
 } 
 
 footer {
     background-color: rgba(138, 215, 245, 0.75);
     height: 65px;
-    grid-column: 2 / 8;
+    grid-column: 1 / 9;
     grid-row: 6 / 7;
 }
