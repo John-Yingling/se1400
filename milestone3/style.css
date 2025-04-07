@@ -17,10 +17,16 @@ body {
     margin: 0;
 }
 
+#navbar {
+    background-color: rgba(173, 113, 184, 0.75);
+    grid-column: 1 / 9;
+    grid-row: 2 / 3;
+}
+
 nav {
     background-color: rgba(177, 78, 194, 0.75);
     height: 65px;
-    grid-column: 1 / 9;
+    grid-column: 2 / 8;
     grid-row: 2 / 3;
 }
 
@@ -48,6 +54,12 @@ main {
 footer {
     background-color: rgba(138, 215, 245, 0.75);
     height: 65px;
+    grid-column: 2 / 8;
+    grid-row: 6 / 7;
+}
+
+#footbar {
+    background-color: rgba(168, 215, 234, 0.75);
     grid-column: 1 / 9;
     grid-row: 6 / 7;
 }
